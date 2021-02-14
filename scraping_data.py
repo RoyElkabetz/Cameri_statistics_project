@@ -30,7 +30,7 @@ def print_table(my_table):
         print(singleRow)
 
 
-
+#myUrl = 'http://www.israports.co.il/SiteAssets/Waves/ashdodw-ipa.html'
 myUrl = 'http://www.israports.co.il/SiteAssets/Waves/haifaw-ipa.html'
 names = ['Time-GMT', 'Hmax-meter', 'Hs-meter', 'H1/3-meter', 'Direction-deg',
          'Tav-sec', 'Tz-sec', 'Tp-sec', 'Temperature-C']
