@@ -1,0 +1,48 @@
+Date: 2021-07-24
+HAIFA:
+Html connection established.
+Html was successfully parsed.
+Got last measurement date.
+Got new waves data.
+New data appended to CSV.
+Last measurement was updated.
+ASHDOD:
+Html connection established.
+Html was successfully parsed.
+Got last measurement date.
+Got new waves data.
+New data appended to CSV.
+Last measurement was updated.
+
+Date: 2021-07-24
+####### HAIFA #######
+Html connection established.
+Html was successfully parsed.
+Got last measurement date.
+Got new waves data.
+New data appended to CSV.
+Last measurement was updated.
+####### ASHDOD #######
+Html connection established.
+Html was successfully parsed.
+Got last measurement date.
+Got new waves data.
+New data appended to CSV.
+Last measurement was updated.
+======================================
+Date: 2021-07-24
+------------------------------------------------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+======================================

@@ -15,12 +15,15 @@ class Logger:
     def __init__(self, path_to_log='/Users/royelkabetz/Git/Cameri_statistics_project/scraping_log.txt'):
         self.path_to_log = path_to_log
         self.log_file = open(path_to_log, "a")
-        self.log_file.write(f"Date: {str(date.today())}\n")
+        self.log_file.write('======================================')
+        self.log_file.write(f"\nDate: {str(date.today())}\n")
+        self.log_file.write('--------------------------------------')
 
     def write_to_log(self, text):
         self.log_file.write(text + "\n")
 
     def close_log(self):
+        self.log_file.write('======================================\n')
         self.log_file.close()
 
 
@@ -31,11 +34,11 @@ def open_html_connection(url, logger=None):
         page_html = u_client.read()
         u_client.close()
         if logger is not None:
-            logger.write_to_log("Html connection established.")
+            logger.write_to_log("> Html connection established.")
         return page_html
     except:
         if logger is not None:
-            logger.write_to_log("There was a problem in html connection.")
+            logger.write_to_log("> There was a problem in html connection.")
         return
 
 
@@ -111,11 +114,11 @@ def pars_grab(html, logger=None):
                 table.append(row_values)
                 all_data.append(row_values)
         if logger is not None:
-            logger.write_to_log("Html was successfully parsed.")
+            logger.write_to_log("> Html was successfully parsed.")
         return pd.DataFrame(all_data, columns=columns)
     except:
         if logger is not None:
-            logger.write_to_log("There was a problem in html parsing process.")
+            logger.write_to_log("> There was a problem in html parsing process.")
         return
 
 
@@ -123,11 +126,11 @@ def get_last_date_from_csv(path_to_file, logger=None):
     try:
         df = pd.read_csv(filepath_or_buffer=path_to_file, usecols=columns)
         if logger is not None:
-            logger.write_to_log("Got last measurement date.")
+            logger.write_to_log("> Got last measurement date.")
         return df['TimeGMT'].values[0]
     except:
         if logger is not None:
-            logger.write_to_log("Could not collect last measurement date.\n")
+            logger.write_to_log("> Could not collect last measurement date.\n")
         return
 
 
@@ -140,11 +143,11 @@ def get_new_data_from_dataframe(last_date, df_new_data, logger=None):
                 idx = row[0]
                 break
         if logger is not None:
-            logger.write_to_log("Got new waves data.")
+            logger.write_to_log("> Got new waves data.")
         return df_new_data[idx:]
     except:
         if logger is not None:
-            logger.write_to_log("There was a problem in computing new data.")
+            logger.write_to_log("> There was a problem in computing new data.")
         return
 
 
@@ -152,11 +155,11 @@ def append_new_data(path_to_file, df_new_data, logger=None):
     try:
         df_new_data.to_csv(path_or_buf=path_to_file, mode='a', header=False)
         if logger is not None:
-            logger.write_to_log("New data appended to CSV.")
+            logger.write_to_log("> New data appended to CSV.")
         pass
     except:
         if logger is not None:
-            logger.write_to_log("There was a problem in appending new data to CSV.")
+            logger.write_to_log("> There was a problem in appending new data to CSV.")
         pass
 
 
@@ -165,11 +168,11 @@ def update_last_line_of_csv(path_to_file, df, logger=None):
         df_last = df.iloc[[-1]]
         df_last.to_csv(path_or_buf=path_to_file, columns=columns)
         if logger is not None:
-            logger.write_to_log("Last measurement was updated.")
+            logger.write_to_log("> Last measurement was updated.")
         pass
     except:
         if logger is not None:
-            logger.write_to_log("There was a problem in Last measurement updating.")
+            logger.write_to_log("> There was a problem in Last measurement updating.")
         pass
 
 
@@ -188,7 +191,7 @@ url_haifa = 'https://www.israports.co.il//_layouts/15/wave/haifaw-ipa.html'
 url_ashdod = 'https://www.israports.co.il//_layouts/15/wave/ashdodw-ipa.html'
 
 # get data from Cameri Haifa
-logger.write_to_log('HAIFA:')
+logger.write_to_log('----------- HAIFA -----------')
 html = open_html_connection(url_haifa, logger)
 df = pars_grab(html, logger)
 last_date = get_last_date_from_csv(PATH_LAST_haifa, logger)
@@ -200,7 +203,7 @@ update_last_line_of_csv(PATH_LAST_haifa, df_new_data, logger)
 time.sleep(random.choice(range(6)))  # sleep 0-6 seconds randomly
 
 # get data from Cameri Ashdod
-logger.write_to_log('ASHDOD:')
+logger.write_to_log('----------- ASHDOD -----------')
 html = open_html_connection(url_ashdod, logger)
 df = pars_grab(html, logger)
 last_date = get_last_date_from_csv(PATH_LAST_ashdod, logger)
