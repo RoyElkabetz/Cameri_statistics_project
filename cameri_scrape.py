@@ -188,6 +188,7 @@ url_haifa = 'https://www.israports.co.il//_layouts/15/wave/haifaw-ipa.html'
 url_ashdod = 'https://www.israports.co.il//_layouts/15/wave/ashdodw-ipa.html'
 
 # get data from Cameri Haifa
+logger.write_to_log('HAIFA:')
 html = open_html_connection(url_haifa, logger)
 df = pars_grab(html, logger)
 last_date = get_last_date_from_csv(PATH_LAST_haifa, logger)
@@ -199,6 +200,7 @@ update_last_line_of_csv(PATH_LAST_haifa, df_new_data, logger)
 time.sleep(random.choice(range(6)))  # sleep 0-6 seconds randomly
 
 # get data from Cameri Ashdod
+logger.write_to_log('ASHDOD:')
 html = open_html_connection(url_ashdod, logger)
 df = pars_grab(html, logger)
 last_date = get_last_date_from_csv(PATH_LAST_ashdod, logger)
