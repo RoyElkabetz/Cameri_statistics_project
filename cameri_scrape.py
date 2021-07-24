@@ -1,5 +1,6 @@
-from urllib.request import urlopen as uReq
-from bs4 import BeautifulSoup as soup
+##!/usr/bin/python3
+from urllib.request import urlopen as u_req
+from bs4 import BeautifulSoup as Soup
 import pandas as pd
 import random
 from datetime import datetime
@@ -32,7 +33,7 @@ class Logger:
 def open_html_connection(url, logger=None):
     # opening up connections and grabbing the page
     try:
-        u_client = uReq(url)
+        u_client = u_req(url)
         page_html = u_client.read()
         u_client.close()
         if logger is not None:
@@ -70,7 +71,7 @@ def strip_date(my_date):
 def pars_grab(html, logger=None):
     # return a pandas dataFrame with the relevant data from the html
     try:
-        page_soup = soup(html, "html.parser")
+        page_soup = Soup(html, "html.parser")
 
         centers = []
         dates_iso = []
@@ -179,10 +180,8 @@ def update_last_line_of_csv(path_to_file, df, logger=None):
 
 
 ##################################### RUN #########################################
-
-
 logger = Logger()
-time.sleep(random.choice(range(6)))  # sleep 0-100 minutes randomly
+time.sleep(random.choice(range(600)))  # sleep 0-100 minutes randomly
 PATH_haifa = '/Users/royelkabetz/Git/Cameri_statistics_project/data/haifa.csv'
 PATH_LAST_haifa = '/Users/royelkabetz/Git/Cameri_statistics_project/data/haifa_last_row.csv'
 PATH_ashdod = '/Users/royelkabetz/Git/Cameri_statistics_project/data/ashdod.csv'
@@ -202,7 +201,7 @@ append_new_data(PATH_haifa, df_new_data, logger)
 update_last_line_of_csv(PATH_LAST_haifa, df_new_data, logger)
 
 
-time.sleep(random.choice(range(6)))  # sleep 0-6 seconds randomly
+time.sleep(random.choice(range(60)))  # sleep 0-6 seconds randomly
 
 # get data from Cameri Ashdod
 logger.write_to_log('\n----------- ASHDOD -----------')
