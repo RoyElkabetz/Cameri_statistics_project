@@ -17,7 +17,7 @@ class Logger:
         self.log_file = open(path_to_log, "a")
         self.log_file.write('======================================')
         self.log_file.write(f"\nDate: {str(date.today())}\n")
-        self.log_file.write('--------------------------------------')
+        self.log_file.write('--------------------------------------\n')
 
     def write_to_log(self, text):
         self.log_file.write(text + "\n")
@@ -203,7 +203,7 @@ update_last_line_of_csv(PATH_LAST_haifa, df_new_data, logger)
 time.sleep(random.choice(range(6)))  # sleep 0-6 seconds randomly
 
 # get data from Cameri Ashdod
-logger.write_to_log('----------- ASHDOD -----------')
+logger.write_to_log('\n----------- ASHDOD -----------')
 html = open_html_connection(url_ashdod, logger)
 df = pars_grab(html, logger)
 last_date = get_last_date_from_csv(PATH_LAST_ashdod, logger)
