@@ -15,9 +15,9 @@ class Logger:
     def __init__(self, path_to_log='/Users/royelkabetz/Git/Cameri_statistics_project/scraping_log.txt'):
         self.path_to_log = path_to_log
         self.log_file = open(path_to_log, "a")
-        self.log_file.write('======================================')
-        self.log_file.write(f"\nDate: {str(date.today())}\n")
-        self.log_file.write('--------------------------------------\n')
+        self.log_file.write('\n======================================\n')
+        self.log_file.write(f"Date: {str(date.today())}\n")
+        self.log_file.write('-----------------------------\n')
 
     def write_to_log(self, text):
         self.log_file.write(text + "\n")
