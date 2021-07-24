@@ -2,28 +2,30 @@ from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 import pandas as pd
 import random
-from datetime import date
+from datetime import datetime
 import time
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 columns = ['TimeGMT', 'Hmax meter', 'Hs meter', 'H1/3 meter', 'Direction deg',
-       'Tav sec', 'Tz sec', 'Tp sec', 'Temperature oC']
+           'Tav sec', 'Tz sec', 'Tp sec', 'Temperature oC']
 
 
 class Logger:
     def __init__(self, path_to_log='/Users/royelkabetz/Git/Cameri_statistics_project/scraping_log.txt'):
         self.path_to_log = path_to_log
         self.log_file = open(path_to_log, "a")
-        self.log_file.write('\n======================================\n')
-        self.log_file.write(f"Date: {str(date.today())}\n")
+        self.log_file.write('\n==================================\n')
+        now = datetime.now()
+        dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+        self.log_file.write(f"Date: {dt_string}\n")
         self.log_file.write('-----------------------------\n')
 
     def write_to_log(self, text):
         self.log_file.write(text + "\n")
 
     def close_log(self):
-        self.log_file.write('======================================\n')
+        self.log_file.write('==================================\n')
         self.log_file.close()
 
 
