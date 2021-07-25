@@ -137,13 +137,12 @@ def get_last_date_from_csv(path_to_file, logger=None):
         return
 
 
-
 def get_new_data_from_dataframe(last_date, df_new_data, logger=None):
     try:
         idx = 0
         for row in df_new_data.iterrows():
             if row[1]['TimeGMT'] == last_date:
-                idx = row[0]
+                idx = row[0] + 1
                 break
         if logger is not None:
             logger.write_to_log("> Got new waves data.")
