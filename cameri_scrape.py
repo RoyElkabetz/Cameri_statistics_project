@@ -156,6 +156,7 @@ def get_new_data_from_dataframe(last_date, df_new_data, logger=None):
 def append_new_data(path_to_file, df_new_data, logger=None):
     try:
         df_new_data.to_csv(path_or_buf=path_to_file, mode='a', header=False)
+        # df_new_data.to_csv(path_or_buf=path_to_file, mode='w', columns=columns)
         if logger is not None:
             logger.write_to_log("> New data appended to CSV.")
         pass
