@@ -278,3 +278,23 @@ Date: 26/07/2021 22:33:06
 > New data appended to CSV.
 > There was a problem in Last measurement updating.
 ==================================
+
+==================================
+Date: 27/07/2021 21:03:03
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
