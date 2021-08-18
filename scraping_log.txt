@@ -598,3 +598,83 @@ Date: 14/08/2021 22:08:57
 > New data appended to CSV.
 > Last measurement was updated.
 ==================================
+
+==================================
+Date: 15/08/2021 21:03:02
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
+
+==================================
+Date: 16/08/2021 21:03:03
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
+
+==================================
+Date: 17/08/2021 21:03:03
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
+
+==================================
+Date: 18/08/2021 21:03:04
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
