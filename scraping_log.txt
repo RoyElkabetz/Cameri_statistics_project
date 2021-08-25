@@ -798,3 +798,23 @@ Date: 24/08/2021 21:03:01
 > New data appended to CSV.
 > Last measurement was updated.
 ==================================
+
+==================================
+Date: 25/08/2021 21:03:01
+-----------------------------
+----------- HAIFA -----------
+> There was a problem in html connection.
+> There was a problem in html parsing process.
+> Got last measurement date.
+> There was a problem in computing new data.
+> There was a problem in appending new data to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> There was a problem in html connection.
+> There was a problem in html parsing process.
+> Got last measurement date.
+> There was a problem in computing new data.
+> There was a problem in appending new data to CSV.
+> There was a problem in Last measurement updating.
+==================================
