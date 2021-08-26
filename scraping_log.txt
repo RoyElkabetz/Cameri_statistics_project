@@ -818,3 +818,23 @@ Date: 25/08/2021 21:03:01
 > There was a problem in appending new data to CSV.
 > There was a problem in Last measurement updating.
 ==================================
+
+==================================
+Date: 26/08/2021 19:06:22
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
