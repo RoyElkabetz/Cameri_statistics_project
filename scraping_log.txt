@@ -2378,3 +2378,43 @@ Date: 13/11/2021 21:03:03
 > New data appended to CSV.
 > Last measurement was updated.
 ==================================
+
+==================================
+Date: 14/11/2021 21:03:03
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
+
+==================================
+Date: 15/11/2021 21:03:01
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> Last measurement was updated.
+==================================
