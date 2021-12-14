@@ -2858,3 +2858,63 @@ Date: 11/12/2021 21:03:03
 > New data appended to CSV.
 > There was a problem in Last measurement updating.
 ==================================
+
+==================================
+Date: 12/12/2021 21:03:05
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 13/12/2021 21:03:02
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 14/12/2021 21:03:01
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
