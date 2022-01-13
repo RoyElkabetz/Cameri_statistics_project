@@ -3058,3 +3058,143 @@ Date: 23/12/2021 21:03:03
 > New data appended to CSV.
 > There was a problem in Last measurement updating.
 ==================================
+
+==================================
+Date: 26/12/2021 21:03:02
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 29/12/2021 21:03:02
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 01/01/2022 21:03:02
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 05/01/2022 21:03:03
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 07/01/2022 21:03:02
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 10/01/2022 21:03:03
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
+
+==================================
+Date: 13/01/2022 21:03:03
+-----------------------------
+----------- HAIFA -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+
+----------- ASHDOD -----------
+> Html connection established.
+> Html was successfully parsed.
+> Got last measurement date.
+> Got new waves data.
+> New data appended to CSV.
+> There was a problem in Last measurement updating.
+==================================
